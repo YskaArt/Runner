@@ -10,7 +10,7 @@ public class PlayGamesController : MonoBehaviour
     void Start()
     {
         // Configura e inicia la plataforma de Google Play Games
-        PlayGamesPlatform.Activate();
+        //PlayGamesPlatform.Activate();
 
         // Intenta iniciar sesión automáticamente cuando el juego se inicia
         SignIn();
